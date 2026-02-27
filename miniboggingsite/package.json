@@ -2,27 +2,17 @@
   "name": "miniboggingsite",
   "version": "1.0.0",
   "description": "this is the backend for mini blogging site",
-  "keywords": [
-    "mini",
-    "blogging",
-    "site",
-    "tech",
-    "blog"
-  ],
-  "homepage": "https://github.com/PrepInstaPrime/projects#readme",
-  "bugs": {
-    "url": "https://github.com/PrepInstaPrime/projects/issues"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/PrepInstaPrime/projects.git"
-  },
+  "keywords": ["mini", "blogging", "site", "tech", "blog"],
   "license": "ISC",
   "author": "FSD class",
-  "type": "commonjs",
+  "type": "module",
   "main": "index.mjs",
   "scripts": {
+    "start": "node index.mjs",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": "18.x"
   },
   "dependencies": {
     "dotenv": "^17.3.1",
